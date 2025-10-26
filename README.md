@@ -14,4 +14,15 @@ Users can input a city name, select temperature units (°F/°C), and view:
 - [Nominatim (OpenStreetMap)](https://nominatim.org/) — Geocoding (city → latitude/longitude)  
 - [Unsplash API](https://unsplash.com/developers) — Random background images 
 
-Note: Uses shared Unsplash API (50 requests/hour limit for everyone).
+## Deployment
+Deployed on Render: https://city-explorer.onrender.com  
+⚠️ **Note:** Uses shared Unsplash API with 50 requests/hour limit.
+
+## Local Setup
+1. Install dependencies: `pip install -r requirements.txt`
+2. Create `.env` file with your Unsplash access key:
+   ```
+   UNSPLASH_ACCESS_KEY=your_key_here
+   ```
+3. Run the app: `python app.py`
+4. Open http://localhost:5001
