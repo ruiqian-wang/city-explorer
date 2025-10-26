@@ -15,14 +15,6 @@ Users can input a city name, select temperature units (°F/°C), and view:
 - [Unsplash API](https://unsplash.com/developers) — Random background images 
 
 ## Deployment
-Deployed on Render: https://city-explorer.onrender.com  
+Deployed on Render: https://city-explorer-c1d8.onrender.com/ 
 ⚠️ **Note:** Uses shared Unsplash API with 50 requests/hour limit.
 
-## Local Setup
-1. Install dependencies: `pip install -r requirements.txt`
-2. Create `.env` file with your Unsplash access key:
-   ```
-   UNSPLASH_ACCESS_KEY=your_key_here
-   ```
-3. Run the app: `python app.py`
-4. Open http://localhost:5001
